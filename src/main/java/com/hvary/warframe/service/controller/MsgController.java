@@ -11,6 +11,7 @@ public class MsgController {
 
     @RequestMapping("/hello")
     public String hello() {
+        System.out.println(1);
         return "hello";
     }
 }
