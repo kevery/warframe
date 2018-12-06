@@ -8,7 +8,7 @@ spring:
     restart:
       enabled: false
 
-  # H2 DATABASE CONFIG
+  # MYSQL DATABASE CONFIG
   datasource:
     url: jdbc:mysql://47.98.193.46:3306/warframe
     username: warframe
